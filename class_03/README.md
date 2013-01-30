@@ -27,3 +27,11 @@ List of 15 questions:
 10. Have you conducted any user/usability tests or gathered any visitor feedback for your site? (Tracy)
 
 11. Are your competitors outranking you in the search engines? (Tracy)
+
+12. How many members do you have?(Kyle)
+
+13. Do you Advertise in any other way?(Kyle)
+
+14. What type of videos are being madew? Who is making the videos? You or clients?(Kyle)
+
+15. How many employes do you have?(Kyle)
