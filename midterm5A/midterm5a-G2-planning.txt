@@ -1,0 +1,26 @@
+1. cater to two types of visitors:
+	a. Members want:
+		1) Access to Fit Rewards program tracking
+		2) Access to their Account and Profile
+	b. Prospective Member wants to see:
+		1) Free Pass info
+		2) Pricing info
+		3) Location
+		4) Hours
+		5) Testimonials
+		6) Services (personal training, classes)
+
+2. Thing everyone wants to see:
+	a. Class Schedule
+	b. Trainers
+	c. Newsletter Signup
+	d. Forums
+	e. Blog
+	f. Contact information
+
+3. Things that need to be clarified and/or fixed:
+	1. ActiveTrax vs Fit Rewards? What is difference (if difference, what are each?) - What is "Personal Performance Programs" (is this ActiveTrax or Fit Rewards) - how is this tied in - where is it listed under services...
+	2. SEO needs major work
+	3. Linkage everywhere is completely messed up and needs fixing (for example: on home page they all link to "giantsgym.com" and go back to the home page)
+
+4. Needs some coherence and excitement (www.crunch.com is a good example of a well-designed and thought out gym website - and boomfitness.com is a good example on their home page of making everything the prospective user would want to find in one place)
