@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	margin:0 auto;
+	padding:0;
+ 	width:80%;
+ 	max-width:1024px;
+}
+
+header{
+	background: #444;
+	width:100%;
+	height:200px;
+}
+nav{
+	background: #333;
+	width:100%;
+	height:50px;
+}
+.main-section{
+	background: #555;
+	float:left;
+	width:67%;
+	max-width: 683px;
+	height:700px;
+}
+.sidebar{
+	background: #777;
+	float:left;
+	width: 33%;
+	max-width: 342px;
+	height:700px;
+}
+.filler-block{
+	width:80%;
+	margin:20px auto;
+	background: #222;
+}
+.filler-block p{
+	color: #fff;
+	margin:10px;
+}
