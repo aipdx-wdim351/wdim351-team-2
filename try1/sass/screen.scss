@@ -1,0 +1,92 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+body {
+	font-family: Arial, Verdana, sans-serif; 
+	background-color: #bbb; 
+	.wrapper-all {
+		border: 1px solid #bbb; 
+		background-color: #eee; 
+		margin: 10px auto 0 auto; 
+		padding: 0; 
+		width: 80%; 
+		max-width: 960px; 
+		height: 745px; 
+	}	
+}
+
+header {
+	border: 1px solid #fcc; 
+	background: #eee; 
+	height: 150px; 
+	margin: 10px; 
+}
+
+	nav {
+		background: #a00; 
+		width: 102%; 
+		height: 40px; 
+		margin: 0 0 0 -10px;
+		ul {
+			list-style-type: none; 
+		}
+		li {
+			float: left; 
+			a {font-weight: bold;}
+		}
+	}
+
+.content-wrapper {
+		background: #22f; 
+		padding: 10px; 
+		height: 300px; 
+		.content-header-block{
+			.main-section {
+				float:left; 
+				.sidebar {
+					border: 1px solid #bbb; 
+				}
+			}
+		}
+}
+		.content-header-block {
+			border-bottom: none; 
+			background: #cdcdcd; 
+			height: 40px; 
+			margin: 30px 20px 0 20px; 	
+		}
+
+		.main-section {
+			.sidebar {
+				float: left; 
+			}	
+		}
+
+		.main-section {
+			width: 60%; 
+			float: left; 
+			max-width: 640px; 
+			height: 400px; 
+			margin: 0 0 20px 20px; 
+			padding: 20px; 
+		}
+
+		.sidebar {
+			float: right; 
+			border-left: none; 
+			width: 27%; 
+			max-width: 320px; 
+			padding:20px; 
+			height: 400px; 
+		}
+
+		.nl_sign_up_block {
+			width: 90%;
+			margin: 10px auto; 
+			padding: 10px; 
+			background: #cdcdcd; 
+		}
