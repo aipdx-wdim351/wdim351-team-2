@@ -1,4 +1,5 @@
 .header {
+<<<<<<< HEAD
 	height: 200px;
 }
 .imagesslider-container{
@@ -9,4 +10,11 @@ height: 300px;
 	background:#555555;
 
 	}
+=======
+	height: 150px;
+}
+
+.pictureTop {
+	margin-top: 20px;
+>>>>>>> 84de33b5df770a17e97713515b1575e086554c91
 }
