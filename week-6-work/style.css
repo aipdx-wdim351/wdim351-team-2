@@ -18,7 +18,7 @@ body {
     header {
       border: 1px solid #fcc;
       background: #eee;
-      height: 150px;
+      /*height: 150px;*/
       margin: 10px;
     }
     nav {
@@ -64,3 +64,10 @@ body {
           padding: 10px;
           background: #cdcdcd;
         }
+.logo{
+  width:70%;
+  float:left;
+}
+.log{
+  width:70%;
+}
