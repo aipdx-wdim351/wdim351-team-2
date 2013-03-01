@@ -1,49 +1,137 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
 <head>
-<title>(home) Wireframe for class wdim351</title>
-  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <!--[if IE]>
-      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <![endif]-->
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Foundation 4</title>
+
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/screen.css" />
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
 </head>
 <body>
-  <section class="wrapper-all">
-    <header>
-      <h1>Logo / contact info / social media, 7-day pass button up here</h1>
-      <p>border only to show margin for now</p>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="programs.html">ActiveTrax</a></li>
-        <li><a href="">Members</a></li>
-        <li><a href="">Forum</a></li>
-        <li><a href="testimonials.html">Testimonials</a></li>
-        <li><a href="contact.html">Contact</a></li>
+
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="panel header"></div> 
+		</div>
+	</div>
+	<nav class="top-bar" style="">
+      <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <h1><a href="/">Hollywood Gym</a></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
       </ul>
-    </nav>
-    <section class="content-header-block">
-      <h2>Welcome blah blah</h2>
-    </section>
-    <section class="main-section">
-      <p>Mustard fennel green bean watercress daikon garlic bok choy zucchini broccoli rabe corn chicory. Broccoli rabe tigernut onion water spinach spinach gourd earthnut pea groundnut dulse nori lentil sierra leone bologi kakadu plum salsify bunya nuts. Garlic pumpkin radicchio plantain broccoli tigernut eggplant bush tomato maize yarrow broccoli rabe sierra leone bologi.</p>
-    </section>
-    <aside class="sidebar">
-      <div class="nl_sign_up_block">
-        <h2 class="nl_header_block">Get Our Newsletter</h2>
-        <p>Lorem ipsum dolor sit amet, purto dolorem no ius, tota facilisi his no. Eu exerci perpetua vim.</p>
-        <form>
-          <p>Name:<br>
-            <input type="text" name="name"></p>
-          <p>Email:<br>
-          <input type="text" name="email"></p>
-          <input type="submit" value="Sign Me Up!">
-        </form>
+
+      
+    <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="left">
+          <li class="divider"></li>
+          <li><a href="index.html">Home</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Blog</a></li>
+          <li class="divider"></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="divider"></li>
+          <li><a href="activetrax.html">ActiveTrax</a></li>
+          <li class="divider"></li>
+          <li><a href="/docs/">Members</a></li>
+          <li class="divider"></li>
+          <li><a href="/docs/">Forum</a></li>
+          <li class="divider"></li>
+          <li><a href="/docs/">Testimonials</a></li>
+          <li class="divider"></li>
+          <li><a href="/docs/">Contact</a></li>
+        </ul>
+      </section>
+  	</nav>
+
+	<div class="row">
+		<div class="large-8 columns">
+			<h3>Welcome</h3>
+
+			<!-- Grid Example -->
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="panel">
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="large-12 columns"> 
+					<div class="panel"> 
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque imperdiet, leo quis venenatis accumsan, tellus erat malesuada justo, ut fermentum erat neque vel eros. Vivamus volutpat pellentesque commodo. Vivamus ipsum ligula, condimentum vitae consequat eget, placerat ut diam. In gravida, velit non pharetra mollis, neque nisl malesuada sapien, sit amet pulvinar est felis in arcu. Mauris dictum suscipit risus tincidunt elementum. Maecenas dapibus vehicula nisl sed volutpat. In non ligula et metus egestas faucibus eget ultricies tellus. Ut ac augue a mauris mollis gravida. Vestibulum at sapien sed est condimentum semper. Fusce dolor justo, aliquet vitae iaculis et, dignissim vel justo.</p>
+					</div> 
+				</div> 
+			</div> 
+		</div>
+		<div class="large-4 columns">
+			<h4>Get Our Newsletter</h4>
+			<p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+			<form>
+  <fieldset>
+    <legend>Fieldset</legend>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Name</label>
+        <input type="text" placeholder="large-12.columns">
       </div>
-    </aside>
-  </section>
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <label>Email</label>
+        <input type="text" placeholder="large-12.columns">
+      </div>
+    </div>
+  </fieldset>
+</form>
+		</div>
+	</div>
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+	
+	<script src="js/foundation.js"></script>
+	
+	<script src="js/foundation.dropdown.js"></script>
+	
+	<script src="js/foundation.alerts.js"></script>
+	
+	<script src="js/foundation.clearing.js"></script>
+	
+	<script src="js/foundation.placeholder.js"></script>
+	
+	<script src="js/foundation.forms.js"></script>
+	
+	<script src="js/foundation.cookie.js"></script>
+	
+	<script src="js/foundation.joyride.js"></script>
+	
+	<script src="js/foundation.magellan.js"></script>
+	
+	<script src="js/foundation.orbit.js"></script>
+	
+	<script src="js/foundation.reveal.js"></script>
+	
+	<script src="js/foundation.tooltips.js"></script>
+	
+	<script src="js/foundation.topbar.js"></script>
+	
+  <script src="js/foundation/app.js"></script>
 </body>
 </html>
