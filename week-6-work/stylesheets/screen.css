@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -93,40 +93,59 @@ header {
 
 /* line 29, ../sass/screen.scss */
 nav {
-  background: #a00;
-  width: 102%;
-  height: 40px;
-  margin: 0 0 0 -10px;
+  background-color: #aa0000;
+  /* Old browsers */
+  background-color: -moz-linear-gradient(top, #aa0000 0%, #c10000 35%, #c40000 55%, #aa0000 100%);
+  /* FF3.6+ */
+  background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aa0000), color-stop(35%, #c10000), color-stop(55%, #c40000), color-stop(100%, #aa0000));
+  /* Chrome,Safari4+ */
+  background-color: -webkit-linear-gradient(top, #aa0000 0%, #c10000 35%, #c40000 55%, #aa0000 100%);
+  /* Chrome10+,Safari5.1+ */
+  background-color: -o-linear-gradient(top, #aa0000 0%, #c10000 35%, #c40000 55%, #aa0000 100%);
+  /* Opera 11.10+ */
+  background-color: -ms-linear-gradient(top, #aa0000 0%, #c10000 35%, #c40000 55%, #aa0000 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #aa0000 0%, #c10000 35%, #c40000 55%, #aa0000 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa0000', endColorstr='#aa0000',GradientType=0 );
+  /* IE6-9 */
+  width: 100%;
+  margin: 0 0 0 0px;
 }
-/* line 34, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
+nav .top-bar {
+  line-height: 40px;
+  height: 40px;
+}
+/* line 45, ../sass/screen.scss */
 nav ul {
   list-style-type: none;
 }
-/* line 37, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 nav li {
   float: left;
 }
-/* line 39, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 nav li a {
   font-weight: bold;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .content-wrapper {
   background: #22f;
   padding: 10px;
   height: 300px;
 }
-/* line 48, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .content-wrapper .content-header-block .main-section {
   float: left;
 }
-/* line 50, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .content-wrapper .content-header-block .main-section .sidebar {
   border: 1px solid #bbbbbb;
 }
 
-/* line 56, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .content-header-block {
   border-bottom: none;
   background: #cdcdcd;
@@ -134,12 +153,12 @@ nav li a {
   margin: 30px 20px 0 20px;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .main-section .sidebar {
   float: left;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .main-section {
   width: 60%;
   float: left;
@@ -149,7 +168,7 @@ nav li a {
   padding: 20px;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .sidebar {
   float: right;
   border-left: none;
@@ -159,7 +178,7 @@ nav li a {
   height: 400px;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .nl_sign_up_block {
   width: 90%;
   margin: 10px auto;

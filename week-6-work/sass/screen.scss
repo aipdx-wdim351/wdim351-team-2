@@ -26,67 +26,78 @@ header {
 	margin: 10px; 
 }
 
-	nav {
-		background: #a00; 
-		width: 102%; 
-		height: 40px; 
-		margin: 0 0 0 -10px;
-		ul {
-			list-style-type: none; 
-		}
-		li {
-			float: left; 
-			a {font-weight: bold;}
-		}
+nav {
+	background-color: #aa0000; /* Old browsers */
+	background-color: -moz-linear-gradient(top,  #aa0000 0%, #c10000 35%, #c40000 55%, #aa0000 100%); /* FF3.6+ */
+	background-color: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aa0000), color-stop(35%,#c10000), color-stop(55%,#c40000), color-stop(100%,#aa0000)); /* Chrome,Safari4+ */
+	background-color: -webkit-linear-gradient(top,  #aa0000 0%,#c10000 35%,#c40000 55%,#aa0000 100%); /* Chrome10+,Safari5.1+ */
+	background-color: -o-linear-gradient(top,  #aa0000 0%,#c10000 35%,#c40000 55%,#aa0000 100%); /* Opera 11.10+ */
+	background-color: -ms-linear-gradient(top,  #aa0000 0%,#c10000 35%,#c40000 55%,#aa0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #aa0000 0%,#c10000 35%,#c40000 55%,#aa0000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa0000', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
+	
+	width: 100%; 
+	.top-bar {
+		line-height: 40px;
+		height: 40px;
+	} 
+	margin: 0 0 0 0px;
+	ul {
+		list-style-type: none; 
 	}
+	li {
+		float: left; 
+		a {font-weight: bold;}
+	}
+}
 
 .content-wrapper {
-		background: #22f; 
-		padding: 10px; 
-		height: 300px; 
-		.content-header-block{
-			.main-section {
-				float:left; 
-				.sidebar {
-					border: 1px solid #bbb; 
-				}
+	background: #22f; 
+	padding: 10px; 
+	height: 300px; 
+	.content-header-block {
+		.main-section {
+			float:left; 
+			.sidebar {
+				border: 1px solid #bbb; 
 			}
 		}
+	}
 }
-		.content-header-block {
-			border-bottom: none; 
-			background: #cdcdcd; 
-			height: 40px; 
-			margin: 30px 20px 0 20px; 	
-		}
+	.content-header-block {
+		border-bottom: none; 
+		background: #cdcdcd; 
+		height: 40px; 
+		margin: 30px 20px 0 20px; 	
+	}
 
-		.main-section {
-			.sidebar {
-				float: left; 
-			}	
-		}
-
-		.main-section {
-			width: 60%; 
-			float: left; 
-			max-width: 640px; 
-			height: 400px; 
-			margin: 0 0 20px 20px; 
-			padding: 20px; 
-		}
-
+	.main-section {
 		.sidebar {
-			float: right; 
-			border-left: none; 
-			width: 27%; 
-			max-width: 320px; 
-			padding:20px; 
-			height: 400px; 
-		}
+			float: left; 
+		}	
+	}
 
-		.nl_sign_up_block {
-			width: 90%;
-			margin: 10px auto; 
-			padding: 10px; 
-			background: #cdcdcd; 
-		}
+	.main-section {
+		width: 60%; 
+		float: left; 
+		max-width: 640px; 
+		height: 400px; 
+		margin: 0 0 20px 20px; 
+		padding: 20px; 
+	}
+
+	.sidebar {
+		float: right; 
+		border-left: none; 
+		width: 27%; 
+		max-width: 320px; 
+		padding:20px; 
+		height: 400px; 
+	}
+
+	.nl_sign_up_block {
+		width: 90%;
+		margin: 10px auto; 
+		padding: 10px; 
+		background: #cdcdcd; 
+	}
