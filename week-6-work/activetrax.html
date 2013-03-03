@@ -5,12 +5,13 @@
 <head>
 	<meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>Foundation 4</title>
+  <title>Hollywood Gym</title>
 
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/app.css" />
   <link rel="stylesheet" href="css/screen.css" />
+  <link rel="stylesheet" href="style.css" />
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <!--<script type="text/javascript" src="js/jquery.js"></script>
@@ -53,20 +54,19 @@
   <script src="js/foundation/app.js"></script>
 </head>
 <body>
-
-  <div class="row">
+<div class="row">
     <div class="large-12 columns">
       <div class="panel header">
         <p class="log"><img class ="logo" src="images/logo.jpg" alt="LOGO" /></p>
         <ul class="some-contact">
-          <li><span class="bold">Phone:</span>  503-281-4776</li>
-          <li><span class="bold">Hours:</span>  Open 24 hours a day</li>
-          <li><span class="bold">Address:</span>  5223 NE Sandy Blvd. </br>Portland, OR 97213</li>
+          <li><strong>Phone:</strong>  503-281-4776</li>
+          <li><strong class="bold">Hours:</strong>  Open 24 hours a day</li>
+          <li><strong class="bold">Address:</strong>  5223 NE Sandy Blvd. </br>Portland, OR 97213</li>
         </ul>
         <ul class="social">
-          <li><img src="images/twitter.png"alt="" /></li>
-          <li><img src="images/facebook.png"alt="" /></li>
-          <li><img src="images/youtube.png"alt="" /></li>
+          <li><a href="#"><img src="images/twitter.png"alt="" /></a<</li>
+          <li><a href="#"><img src="images/facebook.png"alt="" /></a></li>
+          <li><a href="#"><img src="images/youtube.png"alt="" /></a></li>
         </ul>
 
         <div class="pass">
@@ -111,9 +111,7 @@
     </nav>
 
 	<div class="row">
-    <div class="large-12 columns"> 
-      <div class="panel"></div> 
-    </div> 
+    <div class="row"></div>
 		<div class="large-8 columns">
 			<div class="large-12 columns">
         <img src="images/activetrax-300x65.jpg" />
@@ -143,15 +141,19 @@
     <legend>ActiveTrax Login</legend>
 
     <div class="row">
-      <div class="large-6 columns">
+      <div class="large-12 columns">
         <label>Name</label>
-        <input type="text" placeholder="large-12.columns">
+        <input type="text" placeholder="username">
       </div>
-      <div class="large-6 columns">
-        <label>Email</label>
-        <input type="text" placeholder="large-12.columns">
+      <div class="large-12 columns">
+        <span class="inline">Email</span>
+        <input class="inline" type="password" placeholder="password">
       </div>
-      <a href="#" class="button">Submit</a>
+    </div>
+    <div class="row">
+      <div class="large-6 columns"> 
+        <a href="#" class="button">Submit</a>
+      </div>
     </div>
   </fieldset>
 </form>
