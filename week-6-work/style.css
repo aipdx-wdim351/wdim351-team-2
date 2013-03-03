@@ -5,3 +5,7 @@ fieldset {
 .button {
   background: none repeat scroll 0 0 #E71919;
 }
+
+.titleSection {
+  color: red;
+}
