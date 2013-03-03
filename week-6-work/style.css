@@ -1,73 +1,7 @@
-*{
-  margin:0;
-  padding:0;
+fieldset {
+  border: none;
 }
-body {
-  font-family: Arial, Verdana, sans-serif;
-  background-color: #bbb;
-}
-  .wrapper-all{
-    border: 1px solid #bbb;
-    background-color: #eee;
-    margin:10px auto 0 auto;
-    padding:0;
-    width:80%;
-    max-width:960px;
-    height: 745px;
-  }
-    header {
-      border: 1px solid #fcc;
-      background: #eee;
-      /*height: 150px;*/
-      margin: 10px;
-    }
-    nav {
-      background: #a00;
-      width:102%;
-      height:40px;
-      margin: 0 0 0 -10px;
-    }
-    .content-wrapper {
-      border: 1px solid #bbb;
-      background: #22f;
-      padding: 10px;
-      height: 300px;
-    }
-      .content-header-block {
-        border: 1px solid #bbb;
-        border-bottom: none;
-        background: #cdcdcd;
-        height: 40px;
-        margin: 30px 20px 0 20px;
-      }
-      .main-section {
-        border: 1px solid #bbb;
-        float:left;
-        width:60%;
-        max-width: 640px;
-        height: 400px;
-        margin: 0 0 20px 20px;
-        padding: 20px;
-      }
-      .sidebar {
-        border: 1px solid #bbb;
-        border-left: none;
-        float:left;
-        width: 27%;
-        max-width: 320px;
-        padding: 20px;
-        height:400px;
-      }
-        .nl_sign_up_block {
-          width:90%;
-          margin:10px auto;
-          padding: 10px;
-          background: #cdcdcd;
-        }
-.logo{
-  width:70%;
-  float:left;
-}
-.log{
-  width:70%;
+
+.button {
+  background: none repeat scroll 0 0 #E71919;
 }
