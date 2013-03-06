@@ -61,11 +61,15 @@ margin-bottom:20px;
 	font-size: 0.8em;
 	width: 100%;	
 }
-
+.social-container{
+	width:115px;
+	float:right;
+}
 .social li {
 	float: right;
 	margin-top: 10px;
 	margin-bottom: 0;
+
 }
 	.social li img {
 		padding-left: 2px;
@@ -73,7 +77,7 @@ margin-bottom:20px;
 	}
 
 .pass {
-	float: left;
+	float: right;
 }
 	.pass p {
 		color: rgb(255, 255, 255);
@@ -92,7 +96,7 @@ margin-bottom:20px;
 		-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
 		-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
 		box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
-		height: 50px;
+		width: 100%;
 		margin: 30px 0 0 10px;
 	}
 	.pass p a {
@@ -169,4 +173,36 @@ legend {
 }
 legend h6 {
 	padding: 6px 10px 0 10px;
+}
+.contact-head{
+	float:right;
+	width:40%;
+}
+@media only screen and (max-width: 1000px){
+	.social-container{
+		float: left;
+margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 975px){
+	.contact-head{
+		float:left;
+		width:100%;
+	}
+	.social-container{
+		margin:3px;
+	}
+	.logo{
+		width:100%;
+	}
+	.pass{
+		width:50%;
+		float:left;
+	}
+	.pass p{
+		margin: 15px 0 0 10px;
+	}
+	.some-contact {
+
+margin: 10px 10px 0px 0;
 }
